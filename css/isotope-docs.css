@@ -1,0 +1,34 @@
+/*Isotop*/
+.grid:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/*Element item*/
+.element-item{
+    position: relative;
+    float: left;
+    width: 33%;
+    color: #262524;
+    border: 10px solid #fff;
+    overflow: hidden;
+}
+.element-item img{
+    width: 100%;
+}
+.element-item-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.3);
+    top: -100%;
+    transition: .5s;
+}
+.element-item-overlay h2{
+    color: #87d37c;
+    margin-top: 40px;
+}
+.element-item:hover .element-item-overlay{
+    top: 0px;
+}

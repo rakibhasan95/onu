@@ -1,0 +1,909 @@
+
+/*HeaderSection Start here*/
+header{
+    font-family: 'Roboto', sans-serif;
+}
+
+header img{
+    width: 160px;
+    height: 70px;
+}
+header .navbar-dark .navbar-nav .nav-link:hover {
+    color: #87D37C;
+}
+header .navbar-dark .navbar-nav .nav-link:active {
+    color: #87D37C;
+}
+header .navbar-dark .navbar-nav .nav-link{
+    color: rgb(251, 251, 251);
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 20px 5px 10px;
+}
+/*HeaderSection End here*/
+
+/*SliderSection Start here*/
+.mySliderSection{
+    font-family: 'Roboto', sans-serif;
+    background: url(../img/bannerTop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slider-overlay{
+    background: rgba(0,0,0,.6);
+}
+.carousel-item-inner {
+    padding: 180px 0px 190px 0px;
+}
+.carousel-item h3 {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.carousel-item h2 {
+    font-size: 80px;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    margin: auto;
+    max-width: 580px;
+    padding: 12px 0px;
+}
+.carousel-item h2 span{
+    color: #87D37C;
+}
+.carousel-item h4 {
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.carousel-indicators li {
+    width: 16px;
+    height: 16px;   
+    color: #fff;
+    border-radius: 50%;
+}
+.carousel-indicators .active {
+    background-color: #87D37C;
+}
+/*SliderSection End here*/
+
+/*About Section Start here*/
+.aboutSection-top{
+    padding: 100px 0px 40px 0px;
+}
+.aboutSection-top h2 {
+    font-size: 36px;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.aboutSection-top p {
+    font-size: 18px;
+    color: #000;
+    text-transform: capitalize;
+    max-width: 800px;
+    margin: auto;
+}
+.aboutSection-bottom{
+    padding-bottom: 80px;
+}
+.aboutSection-bottom h2 {
+    font-size: 25px;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 0px 15px 0px;
+}
+.aboutSection-bottom p {
+    font-size: 14px;
+    color: #000;
+    text-align: justify;
+    text-transform: capitalize;
+}
+.aboutSectionHover i, h2{
+    transition: .5s;
+}
+.aboutSectionHover:hover i,
+.aboutSectionHover:hover h2{
+    color: #87D37C;
+    cursor: pointer;
+}
+/*About Section End here*/
+
+/*Service Section Start here*/
+.serviceSection{
+    background: #e1e1e1;
+}
+.serviceSection-top{
+    padding: 100px 0px 40px 0px;
+}
+.serviceSection-top h2 {
+    font-size: 36px;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.serviceSection-top p {
+    font-size: 18px;
+    color: #000;
+    text-transform: capitalize;
+    max-width: 800px
+    margin: auto;
+}
+.serviceSection-mainContain {
+    padding-bottom: 80px;
+}
+.servicebottom-contain{
+    position: relative;
+    overflow: hidden;
+}
+.servicebottom-contain-overlay{
+    position: absolute;
+    top: -100%;
+    transition: .3s;
+    background: rgba(0,0,0,.5);
+    width: 100%;
+    height: 100%;
+}
+.servicebottom-contain:hover .servicebottom-contain-overlay{
+    top: 0;
+}
+.servicebottom-contain-Icon{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+.servicebottom-contain-Icon i{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    color: #fff;
+    line-height: 50px;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    transition: .6s;
+}
+.servicebottom-contain-Icon i:hover{
+    color: #fff;
+    background: #87d37c;
+    border: 1px solid #87d37c;
+    cursor: pointer;
+    transition: .5s;
+}
+/*Service Section End here*/
+
+/*Portfolio Section Start here*/
+.portfolioSection-top {
+    padding: 80px 0px 40px 0px;
+}
+.portfolioSection-top h2 {
+    font-size: 36px;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.portfolioSection-top p {
+    font-size: 18px;
+    color: #000;
+    text-transform: capitalize;
+    max-width: 800px
+    margin: auto;
+}
+.portfolioSection .button-group button {
+    border: none;
+    background: #000;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+.portfolioSection .button-group button:hover{
+    background: #8BCA7B;
+    transition: .3s;
+}
+
+/*Portfolio Section End here*/
+
+/*Pricing Section Start here*/
+.pricingSection{
+    padding-bottom: 100px;
+}
+.pricingSection-top{
+    padding: 100px 0px 40px 0px;
+}
+.pricingSection-top h2 {
+    font-size: 36px;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.pricingSection-top p {
+    font-size: 18px;
+    color: #000;
+    text-transform: capitalize;
+    width: 800px;
+    margin: auto;
+}
+.pricingSection-bottom {
+    background: #39393A;
+    border-radius: 5px;
+    padding: 15px 0px 25px 0px;
+    margin-top: 80px;
+}
+.pricing-item-top {
+    width: 130px;
+    height: 130px;
+    border: 3px solid #fff;
+    border-radius: 100%;
+    margin: auto;
+    margin-top: 20px;
+}
+.pricing-item-top h4 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 25px;
+}
+.pricing-item-top sup,sub{
+    font-size: 14px;
+    margin-right: 5px;
+}
+.pricing-item-top span{
+    font-size: 19px;
+}
+.pricing-item-list {
+    padding: 20px 0px 0px 0px;
+}
+.pricing-item-list li {
+    list-style: none;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.pricing-item-list li a {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+.pricing-item-list li a:hover{
+    border-bottom: 1px solid #fff;
+}
+.pricing-item-button{}
+.pricing-item-button input {
+    width: 130px;
+    height: 35px;
+    border: none;
+    font-size: 16px;
+    color: #000;
+    background: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 20px 0px 0px 0px;
+    font-weight: bold;
+}
+.pricingSection-bottom:hover{
+    background: #87D37C;
+    transition: .3s;
+}
+.pricingSection-bottom:hover .pricing-item-top{
+    background: #fff;
+    transition: .3s;
+}
+.pricingSection-bottom:hover .pricing-item-top h4{
+    color: #87D37C;
+    transition: .3s;
+}
+.pricingSection-bottom:hover .pricing-item-button input{
+    color: #87D37C;
+    transition: .3s;
+}
+/*Pricing Section End here*/
+
+/*counter section Start*/
+.counter-section{
+    background: url(../img/bannerBottom.jpg);
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.counter-section-overly{
+    background: rgba(0,0,0, .5);
+}
+.counter-padding{
+    padding: 100px;
+}
+.counting{
+    border: 1px solid #fff;
+}
+.counting:first-child{
+    border-top: none;
+}
+.counting-overlay{
+    background: rgba(0,0,0, .6);
+}
+.counting h3{
+    font-weight: bold;
+    font-size: 72px;
+}
+.counting p{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*counter section End*/
+
+/*Contact Section Start here*/
+.contactSection-top {
+    padding: 100px 0px 40px 0px;
+}
+.contactSection-top h2 {
+    font-size: 36px;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.contactSection-top p {
+    font-size: 18px;
+    color: #000;
+    text-transform: capitalize;
+    max-width: 800px
+    margin: auto;
+}
+.contactSection-bottom{
+    padding: 80px 0px;
+}
+.contactSection-bottom h2 {
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 35px 0px 15px 0px;
+}
+.contactSection-bottom p {
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+    text-transform: capitalize;
+}
+.contactSectionHover i, h2{
+    transition: .5s;
+}
+.contactSectionHover:hover i, .contactSectionHover:hover h2{
+    color: #87D37C;
+    cursor: pointer;
+}
+/*Contact Section End here*/
+
+/*Form Section Start here*/
+
+.formSection{
+    background: #F5F5F5;
+    padding: 80px 0px 40px 0px;
+}
+.formSection textarea {
+    resize: none;
+}
+.formButton{
+    width: 155px;
+    height: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    background: #000;
+    color: #fff;
+    font-size: 15px; 
+}
+.formButton:hover{
+    background: #87D37C;
+    color: #fff;
+    transition: .4s;
+}
+/*Form Section End here*/
+
+/*Map Section start*/
+.mapSection iframe {
+    border: 0px;
+    width: 100%;
+    height: 400px;
+}
+/*Map Section end*/
+
+/*Footer Section Start*/
+.footerSection{
+    background: #000101;
+}
+.footerSection p {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 22px 0px 10px 0px;
+}
+.footerRightMeidaIcon {
+    float: right;
+    font-size: 24px;
+}
+.footerRightMeidaIcon a {
+    text-decoration: none;
+}
+.footerRightMeidaIcon i {
+    padding: 22px 5px 10px 5px;
+    color: #fff;
+}
+.footerRightMeidaIcon i:hover {
+    color: #87D37C;
+}
+/*Footer Section End*/
+
+
+
+/*Back to top area*/
+.backToTop {
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    cursor: pointer;
+    display: none;
+    background: #3d8a64;
+    color: #fff;
+    border-radius: 25px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 12px;
+    font-size: 17px;
+}
+
+
+/*For Large device*/
+@media(min-width: 992px) and (max-width: 1199px) {
+    /*Header Navbar section*/
+    header .navbar-dark .navbar-nav .nav-link{
+        color: rgb(251, 251, 251);
+        font-size: 18px;
+        text-transform: uppercase;
+        padding: 0px 10px 0px 5px;
+    }
+    /*Slider section*/
+    .carousel-item-inner {
+        padding: 140px 0px 150px 0px;
+    }
+    .carousel-item h3 {
+        font-size: 25px;
+    }
+    .carousel-item h2 {
+        font-size: 60px;
+        max-width: 450px;
+        padding: 10px 0px;
+    }
+    .carousel-item h4 {
+        font-size: 25px;
+    }
+
+    /*About section*/
+    .aboutSection-bottom h2 {
+        font-size: 20px;
+    }
+
+    /*Counter section area*/
+    .counter-padding {
+        padding: 100px 0px;
+    }
+    .counting h3 {
+        font-size: 60px;
+    }
+    .counting p {
+        font-size: 15px;
+    }
+
+    /*Footer section area*/
+    .footerRightMeidaIcon {
+        font-size: 20px;
+    }
+    .footerRightMeidaIcon i {
+        padding: 25px 5px 10px 5px;
+    }
+
+}
+
+/*For medium device*/
+@media(min-width: 768px) and (max-width: 991px){
+    /*Header Navbar section*/
+    header .navbar-dark .navbar-nav .nav-link {
+        font-size: 12px;
+        padding: 0px 11px 0px 0px;
+    }
+    /*Slider section*/
+    .carousel-item-inner {
+        padding: 145px 0px 100px 100px;
+    }
+    .carousel-item h3 {
+        font-size: 25px;
+    }
+    .carousel-item h2 {
+        font-size: 60px;
+        max-width: 450px;
+        padding: 10px 0px;
+    }
+    .carousel-item h4 {
+        font-size: 25px;
+    }
+
+    /*about section area*/
+    .aboutSection-top {
+        padding: 50px 0px 35px 0px;
+    }
+    .aboutSection-top p {
+        font-size: 17px;
+        max-width: 720px;
+    }
+    .aboutSection-bottom {
+        padding-bottom: 38px;
+    }
+
+    /*Service section area*/
+    .serviceSection-top {
+        padding: 50px 0px 30px 0px;
+    }
+    .servicebottom-contain {
+        margin-top: 30px;
+    }
+    .serviceSection-top p {
+        font-size: 17px;
+        max-width: 720px;
+    }
+
+    /*Portfolio section area*/
+    .portfolioSection-top {
+        padding: 50px 0px 30px 0px;
+    }
+    .portfolioSection-top p {
+        font-size: 17px;
+        max-width: 720px;
+    }
+
+    /*Pricing section area*/
+    .pricingSection {
+        padding-bottom: 60px;
+    }
+    .pricingSection-top {
+        padding: 50px 0px 5px 0px;
+    }
+    .pricingSection-top p {
+        font-size: 17px;
+        max-width: 720px;
+    }
+
+    /*Counter section area*/
+    .counter-padding {
+        padding: 75px 0px;
+    }
+    .counting h3 {
+        font-size: 45px;
+    }
+    .counting p {
+        font-size: 13px;
+    }
+
+    /*Contact section area*/
+    .contactSection-top {
+        padding: 70px 0px 40px 0px;
+    }
+    .contactSection-top p {
+        font-size: 17px;
+        max-width: 720px;
+    }
+    .contactSection-bottom {
+        padding: 35px 0px;
+    }
+
+    /*Map Section area*/
+    .mapSection iframe {
+        height: 350px;
+    }
+
+}
+
+/*For Small device*/
+@media(min-width: 576px) and (max-width: 767px){
+    /*Header Navbar section*/
+    header .navbar-dark .navbar-nav .nav-link {
+        font-size: 15px;
+        padding: 6px 0px 0px 0px;
+        display: inline-block;
+    }
+
+    /*Slider section*/
+    .carousel-item-inner {
+        padding: 75px 0px 65px 40px;
+    }
+    .carousel-item h3 {
+        font-size: 18px;
+    }
+    .carousel-item h2 {
+        font-size: 40px;
+        max-width: 310px;
+        padding: 8px 0px;
+    }
+    .carousel-item h4 {
+        font-size: 18px;
+    }
+
+    /*about section area*/
+    .aboutSection-top {
+        padding: 40px 0px 28px 0px;
+    }
+    .aboutSection-top h2 {
+        padding-bottom: 10px;
+    }
+    .aboutSection-top p {
+        font-size: 16px;
+        text-align: justify;
+    }
+    .aboutSection-bottom {
+        padding-bottom: 30px;
+    }
+    .aboutSection-bottom h2 {
+        font-size: 23px;
+        padding: 7px 0px 5px 0px;
+    }
+
+    /*Service section area*/
+    .serviceSection-top {
+        padding: 40px 0px 15px 0px;
+    }
+    .servicebottom-contain {
+        margin-top: 30px;
+    }
+    .serviceSection-top p {
+        font-size: 16px;
+        text-align: justify;
+    }
+    .serviceSection-mainContain {
+        padding-bottom: 40px;
+    }
+
+    /*Portfolio section area*/
+    .portfolioSection-top{
+        padding: 40px 0px 15px 0px;
+    }
+    .portfolioSection-top h2 {
+        padding-bottom: 20px;
+    }
+    .portfolioSection-top p {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    /*Pricing section area*/
+    .pricingSection {
+        padding-bottom: 60px;
+    }
+    .pricingSection-top {
+        padding: 50px 0px 5px 0px;
+    }
+    .pricingSection-top p {
+        font-size: 16px;
+        text-align: justify;
+    }
+    .pricingSection-bottom {
+        margin-top: 40px;
+    }
+
+    /*Counter section area*/
+    .counter-padding {
+        padding: 10px 0px;
+    }
+    .counting{
+        margin-top: 20px;
+        padding: 10px 0px;
+    }
+
+    .counting h3 {
+        font-size: 45px;
+    }
+    .counting p{
+        font-size: 15px;
+    }
+
+    /*Contact section area*/
+    .contactSection-top {
+        padding: 40px 0px 0px 0px;
+    }
+    .contactSection-top p {
+        font-size: 16px; 
+        text-align: justify;
+    }
+    .contactSection-bottom {
+        padding: 20px 0px;
+    }
+    .contactSection-bottom h2 {
+        padding: 15px 0px 5px 0px;
+    }
+
+    /*Form section area*/
+    .formSection {
+        padding: 30px 0px 20px 0px;
+    }
+
+    /*Map Section area*/
+    .mapSection iframe {
+        height: 300px;
+    }
+
+    /*Footer section area*/
+    .footerRightMeidaIcon {
+        font-size: 15px;
+    }
+    .footerRightMeidaIcon i {
+        padding: 25px 5px 10px 4px;
+    }
+}
+
+/*For extra small device*/
+@media(min-width: 350px) and (max-width: 575px){
+    /*Header section Navbar*/
+    header .navbar-dark .navbar-nav .nav-link {
+        font-size: 12px;
+        padding: 5px 0px 0px 5px;
+        display: inline-block;
+        background: rgba(0,0,0,.6);
+        min-width: 110px;
+    }
+
+    /*Header section Logo*/
+    .navbar-dark .navbar-brand {
+        display: none;
+    }
+
+    /*Slider section*/
+    .carousel-indicators {
+        display: none;
+    }
+    .carousel-item-inner {
+        padding: 42px 0px 14px 64px;
+    }
+    .carousel-item h3 {
+        font-size: 15px;
+    }
+    .carousel-item h2 {
+        font-size: 30px;
+        max-width: 230px;
+        padding: 5px 0px;
+    }
+    .carousel-item h4 {
+        font-size: 15px;
+    }
+
+    /*about section area*/
+    .aboutSection-top {
+        padding: 20px 0px 10px 0px;
+    }
+    .aboutSection-top h2 {
+        padding-bottom: 5px;
+    }
+    .aboutSection-top p {
+        font-size: 13px;
+        text-align: justify;
+    }
+    .aboutSection-bottom {
+        padding-bottom: 10px;
+    }
+    .aboutSection-bottom h2 {
+        font-size: 22px;
+        padding: 5px 0px 2px 0px;
+    }
+    .aboutSection-bottom p {
+        font-size: 13px;
+    }
+
+    /*Service section area*/
+    .serviceSection-top {
+        padding: 20px 0px 10px 0px;
+    }
+    .servicebottom-contain {
+        margin-top: 20px;
+    }
+    .serviceSection-top p {
+        font-size: 13px;
+        text-align: justify;
+    }
+    .serviceSection-mainContain {
+        padding-bottom: 25px;
+    }
+
+    /*Portfolio section area*/
+    .portfolioSection-top{
+        padding: 20px 0px 10px 0px;
+    }
+    .portfolioSection-top h2 {
+        padding-bottom: 10px;
+    }
+    .portfolioSection-top p {
+        font-size: 13px;
+        text-align: justify;
+    }
+
+    /*Pricing section area*/
+    .pricingSection {
+        padding-bottom: 60px;
+    }
+    .pricingSection-top {
+        padding: 20px 0px 0px 0px;
+    }
+    .pricingSection-top h2 {
+        padding-bottom: 10px;
+    }
+    .pricingSection-top p {
+        font-size: 13px;
+        text-align: justify;
+    }
+    .pricingSection-bottom {
+        margin-top: 20px;
+    }
+    /*Counter section area*/
+    .counter-padding {
+        padding: 10px 0px;
+    }
+    .counting{
+        margin-top: 20px;
+        padding: 10px 0px;
+    }
+
+    .counting h3 {
+        font-size: 45px;
+    }
+    .counting p{
+        font-size: 15px;
+    }
+
+    /*Contact section area*/
+    .contactSection-top {
+        padding: 20px 0px 10px 0px;
+    }
+    .contactSection-top h2 {
+        padding-bottom: 5px;
+    }
+    .contactSection-top p {
+        font-size: 13px; 
+        text-align: justify;
+    }
+    .contactSection-bottom {
+        padding: 5px 0px;
+    }
+    .contactSection-bottom h2 {
+        padding: 15px 0px 5px 0px;
+    }
+
+    /*Form section area*/
+    .formSection {
+        padding: 10px 0px 10px 0px;
+    }
+    /*Map Section area*/
+    .mapSection iframe {
+        height: 250px;
+    }
+
+    /*Footer section area*/
+    .footerSection p {
+        font-size: 13px;
+        padding: 18px 0px 0px 0px;
+    }
+    .footerRightMeidaIcon {
+        font-size: 15px;
+        float: left;
+    }
+    .footerRightMeidaIcon i {
+        padding: 0px;
+    }
+    .footerRightMeidaIcon a {
+        padding: 0px 20px 0px 0px;
+        font-size: 35px;
+    }
+    .footerRightMeidaIcon a:first-child{
+        padding-left: 50px;
+    }
+}
